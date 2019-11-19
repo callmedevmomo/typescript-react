@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
-// typing in typescript :  "noImplicitAny": false (in json)
+// typing in typescript :  "noImplicitAny": false (tsconfig.json)
 
 // const plus = (a:string,b:string) => a+b;
 
