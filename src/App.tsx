@@ -1,6 +1,7 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
 import { Component } from "react";
+import Number from "./Number";
 
 interface IState {
   counter: number;
@@ -13,7 +14,7 @@ class App extends Component<{}, IState> {
     const { counter } = this.state;
     return (
       <div>
-        {counter}
+        <Number count={counter} />
         <button onClick={this.add}>Add</button>
       </div>
     );
